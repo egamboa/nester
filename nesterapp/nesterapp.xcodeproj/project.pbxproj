@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4F8F5F920B9322000DCADCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F8F5F820B9322000DCADCA /* AppDelegate.swift */; };
+		D4F8F5FE20B9322000DCADCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4F8F5FC20B9322000DCADCA /* Main.storyboard */; };
+		D4F8F60020B9322100DCADCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4F8F5FF20B9322100DCADCA /* Assets.xcassets */; };
+		D4F8F60320B9322100DCADCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4F8F60120B9322100DCADCA /* LaunchScreen.storyboard */; };
+		D4F8F60E20B9322100DCADCA /* nesterappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F8F60D20B9322100DCADCA /* nesterappTests.swift */; };
+		D4F8F61920B9322100DCADCA /* nesterappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F8F61820B9322100DCADCA /* nesterappUITests.swift */; };
+		D4F8F62A20B939F900DCADCA /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F8F62920B939F900DCADCA /* user.swift */; };
+		D4F8F62C20B93A1900DCADCA /* admin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F8F62B20B93A1900DCADCA /* admin.swift */; };
+		D4F8F62E20B93A2200DCADCA /* hotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F8F62D20B93A2200DCADCA /* hotel.swift */; };
+		D4F8F63120B93A3700DCADCA /* room.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F8F63020B93A3700DCADCA /* room.swift */; };
+		D4F8F63320B93A5F00DCADCA /* reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F8F63220B93A5F00DCADCA /* reservation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4F8F60A20B9322100DCADCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4F8F5ED20B9322000DCADCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4F8F5F420B9322000DCADCA;
+			remoteInfo = nesterapp;
+		};
+		D4F8F61520B9322100DCADCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4F8F5ED20B9322000DCADCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4F8F5F420B9322000DCADCA;
+			remoteInfo = nesterapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4F8F5F520B9322000DCADCA /* nesterapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nesterapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4F8F5F820B9322000DCADCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4F8F5FD20B9322000DCADCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4F8F5FF20B9322100DCADCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4F8F60220B9322100DCADCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4F8F60420B9322100DCADCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4F8F60920B9322100DCADCA /* nesterappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nesterappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4F8F60D20B9322100DCADCA /* nesterappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nesterappTests.swift; sourceTree = "<group>"; };
+		D4F8F60F20B9322100DCADCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4F8F61420B9322100DCADCA /* nesterappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nesterappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4F8F61820B9322100DCADCA /* nesterappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nesterappUITests.swift; sourceTree = "<group>"; };
+		D4F8F61A20B9322100DCADCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4F8F62920B939F900DCADCA /* user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
+		D4F8F62B20B93A1900DCADCA /* admin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = admin.swift; sourceTree = "<group>"; };
+		D4F8F62D20B93A2200DCADCA /* hotel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hotel.swift; sourceTree = "<group>"; };
+		D4F8F63020B93A3700DCADCA /* room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = room.swift; sourceTree = "<group>"; };
+		D4F8F63220B93A5F00DCADCA /* reservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reservation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4F8F5F220B9322000DCADCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4F8F60620B9322100DCADCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4F8F61120B9322100DCADCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4F8F5EC20B9322000DCADCA = {
+			isa = PBXGroup;
+			children = (
+				D4F8F5F720B9322000DCADCA /* nesterapp */,
+				D4F8F60C20B9322100DCADCA /* nesterappTests */,
+				D4F8F61720B9322100DCADCA /* nesterappUITests */,
+				D4F8F5F620B9322000DCADCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4F8F5F620B9322000DCADCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4F8F5F520B9322000DCADCA /* nesterapp.app */,
+				D4F8F60920B9322100DCADCA /* nesterappTests.xctest */,
+				D4F8F61420B9322100DCADCA /* nesterappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4F8F5F720B9322000DCADCA /* nesterapp */ = {
+			isa = PBXGroup;
+			children = (
+				D4F8F62820B939BB00DCADCA /* views */,
+				D4F8F62720B939B700DCADCA /* models */,
+				D4F8F62620B939AA00DCADCA /* controllers */,
+				D4F8F60420B9322100DCADCA /* Info.plist */,
+			);
+			path = nesterapp;
+			sourceTree = "<group>";
+		};
+		D4F8F60C20B9322100DCADCA /* nesterappTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4F8F60D20B9322100DCADCA /* nesterappTests.swift */,
+				D4F8F60F20B9322100DCADCA /* Info.plist */,
+			);
+			path = nesterappTests;
+			sourceTree = "<group>";
+		};
+		D4F8F61720B9322100DCADCA /* nesterappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4F8F61820B9322100DCADCA /* nesterappUITests.swift */,
+				D4F8F61A20B9322100DCADCA /* Info.plist */,
+			);
+			path = nesterappUITests;
+			sourceTree = "<group>";
+		};
+		D4F8F62620B939AA00DCADCA /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		D4F8F62720B939B700DCADCA /* models */ = {
+			isa = PBXGroup;
+			children = (
+				D4F8F62920B939F900DCADCA /* user.swift */,
+				D4F8F62B20B93A1900DCADCA /* admin.swift */,
+				D4F8F62D20B93A2200DCADCA /* hotel.swift */,
+				D4F8F63020B93A3700DCADCA /* room.swift */,
+				D4F8F63220B93A5F00DCADCA /* reservation.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		D4F8F62820B939BB00DCADCA /* views */ = {
+			isa = PBXGroup;
+			children = (
+				D4F8F5FC20B9322000DCADCA /* Main.storyboard */,
+				D4F8F5FF20B9322100DCADCA /* Assets.xcassets */,
+				D4F8F60120B9322100DCADCA /* LaunchScreen.storyboard */,
+				D4F8F5F820B9322000DCADCA /* AppDelegate.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4F8F5F420B9322000DCADCA /* nesterapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4F8F61D20B9322100DCADCA /* Build configuration list for PBXNativeTarget "nesterapp" */;
+			buildPhases = (
+				D4F8F5F120B9322000DCADCA /* Sources */,
+				D4F8F5F220B9322000DCADCA /* Frameworks */,
+				D4F8F5F320B9322000DCADCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nesterapp;
+			productName = nesterapp;
+			productReference = D4F8F5F520B9322000DCADCA /* nesterapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4F8F60820B9322100DCADCA /* nesterappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4F8F62020B9322100DCADCA /* Build configuration list for PBXNativeTarget "nesterappTests" */;
+			buildPhases = (
+				D4F8F60520B9322100DCADCA /* Sources */,
+				D4F8F60620B9322100DCADCA /* Frameworks */,
+				D4F8F60720B9322100DCADCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4F8F60B20B9322100DCADCA /* PBXTargetDependency */,
+			);
+			name = nesterappTests;
+			productName = nesterappTests;
+			productReference = D4F8F60920B9322100DCADCA /* nesterappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4F8F61320B9322100DCADCA /* nesterappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4F8F62320B9322100DCADCA /* Build configuration list for PBXNativeTarget "nesterappUITests" */;
+			buildPhases = (
+				D4F8F61020B9322100DCADCA /* Sources */,
+				D4F8F61120B9322100DCADCA /* Frameworks */,
+				D4F8F61220B9322100DCADCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4F8F61620B9322100DCADCA /* PBXTargetDependency */,
+			);
+			name = nesterappUITests;
+			productName = nesterappUITests;
+			productReference = D4F8F61420B9322100DCADCA /* nesterappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4F8F5ED20B9322000DCADCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Andrés Gamboa";
+				TargetAttributes = {
+					D4F8F5F420B9322000DCADCA = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					D4F8F60820B9322100DCADCA = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = D4F8F5F420B9322000DCADCA;
+					};
+					D4F8F61320B9322100DCADCA = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = D4F8F5F420B9322000DCADCA;
+					};
+				};
+			};
+			buildConfigurationList = D4F8F5F020B9322000DCADCA /* Build configuration list for PBXProject "nesterapp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4F8F5EC20B9322000DCADCA;
+			productRefGroup = D4F8F5F620B9322000DCADCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4F8F5F420B9322000DCADCA /* nesterapp */,
+				D4F8F60820B9322100DCADCA /* nesterappTests */,
+				D4F8F61320B9322100DCADCA /* nesterappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4F8F5F320B9322000DCADCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4F8F60320B9322100DCADCA /* LaunchScreen.storyboard in Resources */,
+				D4F8F60020B9322100DCADCA /* Assets.xcassets in Resources */,
+				D4F8F5FE20B9322000DCADCA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4F8F60720B9322100DCADCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4F8F61220B9322100DCADCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4F8F5F120B9322000DCADCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4F8F63320B93A5F00DCADCA /* reservation.swift in Sources */,
+				D4F8F62E20B93A2200DCADCA /* hotel.swift in Sources */,
+				D4F8F63120B93A3700DCADCA /* room.swift in Sources */,
+				D4F8F62A20B939F900DCADCA /* user.swift in Sources */,
+				D4F8F5F920B9322000DCADCA /* AppDelegate.swift in Sources */,
+				D4F8F62C20B93A1900DCADCA /* admin.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4F8F60520B9322100DCADCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4F8F60E20B9322100DCADCA /* nesterappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4F8F61020B9322100DCADCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4F8F61920B9322100DCADCA /* nesterappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4F8F60B20B9322100DCADCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4F8F5F420B9322000DCADCA /* nesterapp */;
+			targetProxy = D4F8F60A20B9322100DCADCA /* PBXContainerItemProxy */;
+		};
+		D4F8F61620B9322100DCADCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4F8F5F420B9322000DCADCA /* nesterapp */;
+			targetProxy = D4F8F61520B9322100DCADCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4F8F5FC20B9322000DCADCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4F8F5FD20B9322000DCADCA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4F8F60120B9322100DCADCA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4F8F60220B9322100DCADCA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4F8F61B20B9322100DCADCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4F8F61C20B9322100DCADCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4F8F61E20B9322100DCADCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = nesterapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = work.eg.nesterapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4F8F61F20B9322100DCADCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = nesterapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = work.eg.nesterapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D4F8F62120B9322100DCADCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = nesterappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = work.eg.nesterappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nesterapp.app/nesterapp";
+			};
+			name = Debug;
+		};
+		D4F8F62220B9322100DCADCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = nesterappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = work.eg.nesterappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nesterapp.app/nesterapp";
+			};
+			name = Release;
+		};
+		D4F8F62420B9322100DCADCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = nesterappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = work.eg.nesterappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = nesterapp;
+			};
+			name = Debug;
+		};
+		D4F8F62520B9322100DCADCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = nesterappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = work.eg.nesterappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = nesterapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4F8F5F020B9322000DCADCA /* Build configuration list for PBXProject "nesterapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4F8F61B20B9322100DCADCA /* Debug */,
+				D4F8F61C20B9322100DCADCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4F8F61D20B9322100DCADCA /* Build configuration list for PBXNativeTarget "nesterapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4F8F61E20B9322100DCADCA /* Debug */,
+				D4F8F61F20B9322100DCADCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4F8F62020B9322100DCADCA /* Build configuration list for PBXNativeTarget "nesterappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4F8F62120B9322100DCADCA /* Debug */,
+				D4F8F62220B9322100DCADCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4F8F62320B9322100DCADCA /* Build configuration list for PBXNativeTarget "nesterappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4F8F62420B9322100DCADCA /* Debug */,
+				D4F8F62520B9322100DCADCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4F8F5ED20B9322000DCADCA /* Project object */;
+}
